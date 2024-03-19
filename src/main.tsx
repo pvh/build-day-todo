@@ -3,7 +3,6 @@ import { BrowserWebSocketClientAdapter } from "@automerge/automerge-repo-network
 import { BroadcastChannelNetworkAdapter } from "@automerge/automerge-repo-network-broadcastchannel";
 import { IndexedDBStorageAdapter } from "@automerge/automerge-repo-storage-indexeddb";
 import { RepoContext } from "@automerge/automerge-repo-react-hooks";
-import { next as A } from "@automerge/automerge"; //why `next`? See the the "next" section of the conceptual overview
 import React from "react";
 import ReactDOM from "react-dom/client";
 import App from "./App.tsx";

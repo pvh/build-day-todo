@@ -1,8 +1,6 @@
-import automergeLogo from "./assets/automerge.png";
 import "./App.css";
 import { AutomergeUrl } from "@automerge/automerge-repo";
 import { useDocument } from "@automerge/automerge-repo-react-hooks";
-import { next as A } from "@automerge/automerge";
 import { TodoDoc } from "./types";
 
 function App({ docUrl }: { docUrl: AutomergeUrl }) {
