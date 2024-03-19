@@ -1,11 +1,11 @@
-import { defineConfig } from "vite"
-import react from "@vitejs/plugin-react"
-import wasm from "vite-plugin-wasm"
-import topLevelAwait from "vite-plugin-top-level-await"
+import { defineConfig } from "vite";
+import react from "@vitejs/plugin-react";
+import wasm from "vite-plugin-wasm";
+import topLevelAwait from "vite-plugin-top-level-await";
 
 export default defineConfig({
   // customize this to your repo name for github pages deploy
-  base: "/",
+  base: "/build-day-todo/",
 
   build: {
     target: "esnext",
@@ -17,4 +17,4 @@ export default defineConfig({
     format: "es",
     plugins: () => [wasm()],
   },
-})
+});
